@@ -1,23 +1,53 @@
-## TYPO3 v6.2
-# Ignore several upload and file directories.
-/fileadmin/user_upload/
-/fileadmin/_temp_/
-/fileadmin/_processed_/
-/uploads/
-# Ignore cache
-/typo3conf/temp_CACHED*
-/typo3conf/temp_fieldInfo.php
-/typo3conf/deprecation_*.log
-/typo3conf/ENABLE_INSTALL_TOOL
-/typo3conf/realurl_autoconf.php
-/FIRST_INSTALL
-# Ignore system folders, you should have them symlinked.
-# If not comment out the following entries.
-/typo3
-/typo3_src
-/typo3_src-*
-/Packages
-/.htaccess
-/index.php
-# Ignore temp directory.
-/typo3temp/
+https://royal-scene-1920.cloudflareaccess.com
+
+Ov23liRqZNc7DwvQr1XN
+
+ea69af75e8517e661a9bb69731dd7ddb42d0acff
+
+https://royal-scene-1920.cloudflareaccess.com/cdn-cgi/access/enterprise-setup/Yzg1ZWYyNDYtMGMzYS00MThlLTgzNjMtNDY0OTEyNzlmNzRl48cb14b7b736bcad8328c603d960d1c53473ef459e4b3169a21f3ed6a0281e556adf99d1
+
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+lib/
+
+# Cloudflare Wrangler local state & environment files
+.wrangler/
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Flag images
+brazil.png
+england.png
+us.png
+german.png
